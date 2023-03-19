@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Iceland&family=Inter:wght@300;400;500&family=Montserrat:wght@200;300;400;500&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <title>Restaurant</title>
+    <link rel="icon" type="image/x-icon" href="icons/icon.png">
+</head>
+<body>
+
+<header>
+
+      <div class="header_block">
+            <div class="container_header">
+                  <div class="header">
+            
+                  <div class="header_line">
+                        <div class="nav">
+                              <a class="nav_item" href="@">О нас</a>
+                              <a class="nav_item" href="@">Меню</a>
+                              <a class="nav_item" href="@">Мероприятия</a>
+                              <a class="nav_item" href="@">Забронировать стол</a>            
+                              <a class="nav_item" href="@">Доставка</a>            
+                              <a class="nav_item" href="@">Заказ</a>            
+                        </div>
+                  </div>
+
+                  <div class="block_name_restourant">
+
+                              <img class="logo_diamond" src="images/logo-diamond.png" alt="">
+
+                              <h2 class="text_name_rest tnr_one">SHJ Restaurant</h2>
+                              <h2 class="text_name_rest tnr_two">Restaurant</h2>
+
+                  </div>
+
+
+
+
+
+                  <div class="bg_burger">
+                        <div class="wrapper_menu">
+                              <div class="line_menu half start"></div>
+                              <div class="line_menu"></div>
+                              <div class="line_menu half end"></div>
+                        </div>
+                  </div>
+      
+                  <div id="menu" class="new_header_line on_or_off">
+                        <a class="new_nav_item" href="@">О нас</a>
+                        <a class="new_nav_item" href="@">Меню</a>
+                        <a class="new_nav_item" href="@">Мероприятия</a>
+                        <a class="new_nav_item" href="@">Забронировать стол</a>            
+                        <a class="new_nav_item" href="@">Доставка</a>            
+                        <a class="new_nav_item" href="@">Заказ</a>
+                  </div>
+
+
+
+
+
+                  </div>
+            </div>
+      </div>
+
+
+</header>
+
+
+
+<main>
+
+
+<!-- P.2 (About us) -->
+
+<div class="about_us_block">
+      <div class="container_two">
+            <div class="img_and_discripton">
+
+                  <div class="image">
+                        <img class="image_au" src="images/about-us.png" alt="">
+                        <p class="about_us">О нас</p>
+                  
+
+
+                                  
+                  
+                  
+                  </div>
+                  <p class="text_discriptoin">
+                        SHJ Restaurant – яркое и стильное место на ресторанной карте Перми. Изысканный вкус блюд, безупречный сервис и приятная атмосфера – то, за что нас ценят наши гости.
+                        <br class="td_one">
+                        <br><span class="td_two">В меню ресторана отражены 4 концептуальных направления, которые включают не только традиционные блюда, но и оригинальные гастрономические новинки. </span>В разделе FOUR SEASONS каждый сезон появляются совершенно новые блюда в авторской интерпретации шеф-повара.
+                  </p>  
+            </div>
+      </div>
+</div>
+
+
+
+
+
+<!-- P.2  END--> 
+
+
+
+<!-- P.3  (MENU)-->    
+
+<div class="menu_block">
+
+      <h4 class="time_work">
+            Работаем 24/7
+      </h4>
+
+      <div class="menu_bg">
+            <div class="container_three">
+
+                  <h5 class="text_menu">
+                        Меню
+                  </h5>
+
+                  <div class="txt_meal_time">
+                        <button id="breakfast1" class="button_text">ЗАВТРАК</button>
+                        <button id="lunch1" class="button_text">ОБЕД</button>
+                        <button id="dinner1" class="button_text">УЖИН</button>
+                  </div>
+                  <div id="breakfast2"   style="display:block;">
+                        <ul class="img_food">
+                              <li class="food">
+                                    <img class="image_food" src="images/breakfast/breakfast_one.png" alt="">
+                                    <div class="price_food">
+                                          <span>290 р</span>
+                                    </div>
+                              </li>
+                              <li class="food">
+                                    <img class="image_food" src="images/breakfast/breakfast_two.png" alt="">
+                                    <div class="price_food">
+                                          <span>390 р</span>
+                                    </div>
+                              </li>
+                              <li class="food">
+                                    <img class="image_food" src="images/breakfast/breakfast_three.png" alt="">
+                                    <div class="price_food">
+                                          <span>240 р</span>
+                                    </div>
+                              </li>
+                              <li class="food">
+                                    <img class="image_food" src="images/breakfast/breakfast_four.png" alt="">
+                                    <div class="price_food">
+                                          <span>240 р</span>
+                                    </div>
+                              </li>
+                              <li class="food">
+                                    <img class="image_food" src="images/breakfast/breakfast_five.png" alt="">
+                                    <div class="price_food">
+                                          <span>180 р</span>
+                                    </div>
+                              </li>
+                        </ul>
+                  </div>
+
+                  <div id="lunch2"  style="display:none;">
+                        <ul class="img_food">
+                              <li class="food">
+                                    <img class="image_food" src="images/lunch/lunch_one.png" alt="">
+                                    <div class="price_food">
+                                          <span>290 р</span>
+                                    </div>
+                              </li>
+                              <li class="food">
+                                    <img class="image_food" src="images/lunch/lunch_two.png" alt="">
+                                    <div class="price_food">
+                                          <span>440 р</span>
+                                    </div>
+                              </li>
+                              <li class="food">
+                                    <img class="image_food" src="images/lunch/lunch_three.png" alt="">
+                                    <div class="price_food">
+                                          <span>320 р</span>
+                                    </div>
+                              </li>
+                              <li class="food">
+                                    <img class="image_food" src="images/lunch/lunch_four.png" alt="">
+                                    <div class="price_food">
+                                          <span>280 р</span>
+                                    </div>
+                              </li>
+                              <li class="food">
+                                    <img class="image_food" src="images/lunch/lunch_five.png" alt="">
+                                    <div class="price_food">
+                                          <span>240 р</span>
+                                    </div>
+                              </li>
+                        </ul>
+                  </div>
+
+                  <div id="dinner2"  style="display:none;">
+                        <ul class="img_food">
+                              <li class="food">
+                                    <img class="image_food" src="images/dinner/dinner_one.png" alt="">
+                                    <div class="price_food">
+                                          <span>390 р</span>
+                                    </div>
+                              </li>
+                              <li class="food">
+                                    <img class="image_food" src="images/dinner/dinner_two.png" alt="">
+                                    <div class="price_food">
+                                          <span>560 р</span>
+                                    </div>
+                              </li>
+                              <li class="food">
+                                    <img class="image_food" src="images/dinner/dinner_three.png" alt="">
+                                    <div class="price_food">
+                                          <span>240 р</span>
+                                    </div>
+                              </li>
+                              <li class="food">
+                                    <img class="image_food" src="images/dinner/dinner_four.png" alt="">
+                                    <div class="price_food">
+                                          <span>420 р</span>
+                                    </div>
+                              </li>
+                              <li class="food">
+                                    <img class="image_food" src="images/dinner/dinner_five.png" alt="">
+                                    <div class="price_food">
+                                          <span>530 р</span>
+                                    </div>
+                              </li>
+                        </ul>
+                  </div>
+
+                  <div class="txt_more">
+                        <a class="text_more" href="@">Больше >>></a>
+                  </div>
+
+
+
+
+            </div>
+      </div>
+
+</div>
+
+
+<!-- P.3  END-->  
+
+
+
+
+
+<!--P.4 --  (EVENTS)-->
+
+
+
+<div class="events_block">
+
+      <p class="text_events">
+            МЕРОПРИЯТИЯ
+      </p>
+
+      <div class="event_cards_block">
+            <div class="container_four">
+
+
+                  <div class="discount_for_couples">
+
+                        <div class="dfc">
+                              <img class="image_dfc" src="images/sale.png" alt="">
+
+                              <div class="text_dfc">
+                                    Каждую пятницу в нашем ресторане действует скидка 10% на ужин со своей второй половинкой
+                              </div>
+                        </div>
+
+
+                  </div>
+
+
+                  <div class="live_music">
+
+                        <div class="lm">
+                              
+                              <img class="image_lm" src="images/live_music.png" alt="">
+
+                              <div class="text_lm">
+                                    Каждый вечер вы можете насладиться живой музыкой в исполнении лучшей команды музыкантов                              </div>
+
+                        </div>
+                  </div>
+
+
+
+
+
+
+
+                  
+            </div>
+
+
+                  <div class="restaurant_card">
+                        <div class="cont_rc">
+                              <div class="rc">
+
+                                    <img class="image_rc" src="images/restaurant_card.png" alt="">
+
+                                    <div class="text_rc">
+                                          КАРТА РЕСТОРАНА
+                                    </div>
+
+                              </div>
+
+                                    <a class="more_detailed" href="@">Подробнее...</a>     
+
+                              </div>
+                        </div>
+
+
+      </div>
+
+
+</div>
+
+<!-- P.4 -- END (EVENTS) -->
+
+
+
+
+
+<!-- P.5 -- (BOOK A TABLE) -->
+
+
+<div class="book_a_table">
+
+      <!-- <div class="txt_book_a_table">
+            <p class="text_book_a_table">
+                  ЗАБРОНИРОВАТЬ МЕСТО
+            </p>
+      </div> -->
+
+      <div class="cont_bat">
+            <div class="bat">
+
+                  <p class="text_favorite_place">
+                        Забронируй любимое место
+                  </p>
+
+                  <p class="book_your_place">
+                        Забронировать место
+                  </p>
+            
+                  <img class="image_rp" src="images/restaurant_plan.png" alt="">
+
+            </div>
+
+      </div>
+
+
+
+</div>
+
+
+
+
+
+<!-- P.5 -- END (BOOK A TABLE) -->
+
+<!-- P.6 --  (gallery) -->
+<div class="gallery">
+      <div class="container_gallary">
+
+            <div class="images">
+                  <img src="images/gallery/image 16.png">
+                  <img src="images/gallery/image 17.png">
+                  <img src="images/gallery/image 18.png">
+                  <img src="images/gallery/image 19.png">
+                  <img src="images/gallery/image 20.png">
+                  <img src="images/gallery/image 21.png">
+                  <img src="images/gallery/image 22.png">
+                  <img src="images/gallery/image 23.png">
+            </div>
+
+      </div>
+</div>
+
+
+
+
+<!-- P.6 -- END (gellery) -->
+
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<main style="margin: 0px 40px 0px 40px;">
+
+</main>
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+      
+      <div class="footer_bg">
+            <img src="images/footer-logo.png" alt="">
+      </div>
+      
+</footer>
+
+
+
+
+
+
+      <script src="app.js"></script>
+</body>
+</html>
